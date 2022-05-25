@@ -2,7 +2,9 @@ import React from 'react'
 
 const Separator = () => {
   return (
-    <div>Separator</div>
+    <div className="py-3">
+      <hr className="border-gray-400" />
+    </div>
   )
 }
 

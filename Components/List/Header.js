@@ -5,10 +5,10 @@ import Meta from './Meta'
 
 const Header = () => {
   return (
-    <>
+    <div className="bg-white rounded-md p-3">
         <CoverImage />
         <Meta />
-    </>
+    </div>
   )
 }
 

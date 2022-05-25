@@ -5,12 +5,12 @@ import TagList from './TagList'
 
 const Card = ({ children }) => {
   return (
-      <>
+      <div>
         <Header />
         {children}
         <TagList />
         <Avatar />
-      </>
+      </div>
   )
 }
 
