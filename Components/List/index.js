@@ -6,11 +6,11 @@ import Card from '../Card/index'
 const List = () => {
   return (
     <div className="flex flex-col">
-      <div className="bg-[#F2F2FA] rounded-md m-2.5 p-4">
+      <div className="bg-[#F2F2FA] m-2.5 p-4 w-[350px] max-w-[416px]">
         <Header />
         <Separator />
-        <Card>Card Content</Card>
-        <Card>Card Content</Card>
+        <Card>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</Card>
+        {/* <Card>Card Content</Card> */}
       </div>
     </div>
   )
