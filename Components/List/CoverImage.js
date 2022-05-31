@@ -1,11 +1,14 @@
 import React from 'react'
 
-const CoverImage = () => {
+const CoverImage = (props) => {
+
   return (
-    <div>
-      <img src="./cover-01.svg" alt="ImageCover" 
-        className="rounded-md" />
-    </div>
+    <>
+        <div>
+          <img src={props.cover} alt="ImageCover" 
+            className="rounded-md" />
+        </div>
+    </>
   )
 }
 

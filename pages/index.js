@@ -1,21 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import React  from 'react'
 import List from '../Components/List'
+import ListData from '../Components/data/list'
 import Head from 'next/head'
 
 const Home = () => {
 
-  const [listData, setListData] = useState([])
-
-  const fetchData = async () => {
-    const res = await fetch('/api/list')
-    const data = await res.json()
-    console.log(res)
-    setListData(data)
-  }
-
-  useEffect(() => {
-    fetchData()
-  }, [])
+  console.log(ListData)
 
   return (
     <>
@@ -29,19 +19,16 @@ const Home = () => {
           />
       </Head>
 
-      <div className="font-main w-full min-h-screen bg-[#DCDCFF] leading-5">
+      <div className="font-main w-full min-h-screen overflow-x-auto px-10 py-10 bg-[#DCDCFF] leading-5">
         {/* <div className="flex items-center p-4 bg-white shadow-md  ">
           <h1 className="font-semibold">My Kanban Board</h1>
         </div> */}
-        <div className="flex flex-row flex-wrap justify-center py-8 px-8">
-          
-          <List />
-
-
-
-          {/* <List />
-          <List />
-          <List /> */}
+        <div className="w-full flex space-x-1 items-start">
+          {ListData.map((item, index) => {
+            return (
+              <List key={index} data={item} />
+            )
+          })}
         </div>
       </div>
     </>

@@ -1,5 +1,6 @@
 const listData = [
     {
+        id: 1,
         title: "Not Started",
         description: "Way to Town of Colors",
         cover: "/images/cover-01.png",
@@ -42,6 +43,7 @@ const listData = [
         ]
     },
     {
+        id: 2,
         title: "In Process",
         description: "Way to Town of Colors",
         cover: "/images/cover-02.png",
@@ -92,6 +94,7 @@ const listData = [
         ]
     },
     {
+        id: 3,
         title: "In Review",
         description: "Way to Town of Colors",
         cover: "/images/cover-03.png",
@@ -145,6 +148,7 @@ const listData = [
         ]
     },
     {
+        id: 4,
         title: "Completed",
         description: "Way to Town of Colors",
         cover: "/images/cover-04.png",
