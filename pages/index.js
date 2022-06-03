@@ -19,17 +19,17 @@ const Home = () => {
           />
       </Head>
 
-      <div className="font-main w-full min-h-screen overflow-x-auto px-10 py-10 bg-[#DCDCFF] leading-5">
-        {/* <div className="flex items-center p-4 bg-white shadow-md  ">
+      <div className="font-main w-full min-h-screen overflow-x-auto bg-[#DCDCFF] leading-5">
+        <div className="flex items-center p-4 bg-white shadow-md absolute w-full mb-10">
           <h1 className="font-semibold">My Kanban Board</h1>
-        </div> */}
-        <div className="w-full flex space-x-1 items-start min-w-[406px]">
-          {ListData.map((item, index) => {
-            return (
-              <List key={index} data={item} />
-            )
-          })}
         </div>
+          <div className="flex flex-row p-16 w-fit">
+            {ListData.map((item, index) => {
+              return (
+                <List key={index} data={item} />
+              )
+            })}
+          </div>
       </div>
     </>
   )
