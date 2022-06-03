@@ -23,7 +23,7 @@ const Home = () => {
         {/* <div className="flex items-center p-4 bg-white shadow-md  ">
           <h1 className="font-semibold">My Kanban Board</h1>
         </div> */}
-        <div className="w-full flex space-x-1 items-start">
+        <div className="w-full flex space-x-1 items-start min-w-[406px]">
           {ListData.map((item, index) => {
             return (
               <List key={index} data={item} />
