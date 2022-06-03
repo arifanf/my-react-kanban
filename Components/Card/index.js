@@ -4,7 +4,6 @@ import Header from './Header'
 import TagList from './TagList'
 
 const Card = ({ children, item }) => {
-  console.log(item)
 
   return (
       <div className="flex flex-col space-y-6">
@@ -15,7 +14,7 @@ const Card = ({ children, item }) => {
               <div className="py-6 text-[#5E5E7A] text-[13px] leading-5 font-medium ">
                 {children}
               </div>
-              <TagList />
+              <TagList tag={card.tags} />
               <Avatar />
             </div>
           )
