@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Tag = ({tag}) => {
+const Tag = ({title, backgroundColor, textColor}) => {
+
+
   return (
-    <div className={`text-xs leading-3 ${tag.tags.textClass} font-medium bg-[#FFF2C2] rounded p-1.5`} >Website</div>
+    <div className={`text-xs mx-1 leading-3 font-medium rounded p-1.5 ${backgroundColor} ${textColor}`}>{title}</div>
   )
 }
 

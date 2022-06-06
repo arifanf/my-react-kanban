@@ -13,22 +13,22 @@ const listData = [
                     {
                         title: "Website",
                         bgClass: "bg-yellow-100",
-                        textClass: "text-yellow-100"
+                        textClass: "text-yellow-500"
                     },
                     {
                         title: "UX",
                         bgClass: "bg-green-100",
-                        textClass: "text-green-100"
+                        textClass: "text-green-500"
                     },
                     {
                         title: "UI",
                         bgClass: "bg-red-100",
-                        textClass: "text-red-100"
+                        textClass: "text-red-500"
                     },
                     {
                         title: "Wireframe",
                         bgClass: "bg-purple-100",
-                        textClass: "text-purple-100"
+                        textClass: "text-purple-500"
                     },
                 ],
                 avatar: null
@@ -63,12 +63,12 @@ const listData = [
                     {
                         title: "Website",
                         bgClass: "bg-yellow-100",
-                        textClass: "text-yellow-100"
+                        textClass: "text-yellow-500"
                     },
                     {
                         title: "UX",
                         bgClass: "bg-green-100",
-                        textClass: "text-green-100"
+                        textClass: "text-green-500"
                     }
                 ],
                 avatar: '/images/avatar-02.png'
@@ -81,12 +81,12 @@ const listData = [
                     {
                         title: "Website",
                         bgClass: "bg-yellow-100",
-                        textClass: "text-yellow-100"
+                        textClass: "text-yellow-500"
                     },
                     {
                         title: "UX",
                         bgClass: "bg-green-100",
-                        textClass: "text-green-100"
+                        textClass: "text-green-500"
                     }
                 ],
                 avatar: '/images/avatar-02.png'
@@ -107,22 +107,22 @@ const listData = [
                     {
                         title: "Website",
                         bgClass: "bg-yellow-100",
-                        textClass: "text-yellow-100"
+                        textClass: "text-yellow-500"
                     },
                     {
                         title: "UX",
                         bgClass: "bg-green-100",
-                        textClass: "text-green-100"
+                        textClass: "text-green-500"
                     },
                     {
                         title: "UI",
                         bgClass: "bg-red-100",
-                        textClass: "text-red-100"
+                        textClass: "text-red-500"
                     },
                     {
                         title: "Wireframe",
                         bgClass: "bg-purple-100",
-                        textClass: "text-purple-100"
+                        textClass: "text-purple-500"
                     },
                 ],
                 avatar: '/images/avatar-04.png'
@@ -135,12 +135,12 @@ const listData = [
                     {
                         title: "Website",
                         bgClass: "bg-yellow-100",
-                        textClass: "text-yellow-100"
+                        textClass: "text-yellow-500"
                     },
                     {
                         title: "UX",
                         bgClass: "bg-green-100",
-                        textClass: "text-green-100"
+                        textClass: "text-green-500"
                     }
                 ],
                 avatar: '/images/avatar-05.png'
@@ -161,22 +161,22 @@ const listData = [
                     {
                         title: "Website",
                         bgClass: "bg-yellow-100",
-                        textClass: "text-yellow-100"
+                        textClass: "text-yellow-500"
                     },
                     {
                         title: "UX",
                         bgClass: "bg-green-100",
-                        textClass: "text-green-100"
+                        textClass: "text-green-500"
                     },
                     {
                         title: "UI",
                         bgClass: "bg-red-100",
-                        textClass: "text-red-100"
+                        textClass: "text-red-500"
                     },
                     {
                         title: "Wireframe",
                         bgClass: "bg-purple-100",
-                        textClass: "text-purple-100"
+                        textClass: "text-purple-500"
                     },
                 ],
                 avatar: null
