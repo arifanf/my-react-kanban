@@ -12,7 +12,7 @@ const Card = ({ children, item }) => {
             <div key={index} className="bg-white rounded-[10px] p-3">
               <Header title={card.title} />
               <div className="py-6 text-[#5E5E7A] text-[13px] leading-5 font-medium ">
-                {children}
+                {card.content}
               </div>
               <TagList tag={card.tags} />
               <Avatar />
